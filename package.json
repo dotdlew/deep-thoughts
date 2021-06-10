@@ -8,7 +8,7 @@
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dotdlew/deep-thoughts.git"
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/dotdlew/deep-thoughts#readme",
   "devDependencies": {
     "concurrently": "^6.2.0"
+  },
+  "dependencies": {
+    "react-router-dom": "^5.2.0"
   }
 }
