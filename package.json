@@ -9,7 +9,7 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/dotdlew/deep-thoughts.git"
   },
